@@ -1,0 +1,14 @@
+/* Ajustes finos de ritmo e transição entre os blocos */
+@media (max-width: 600px) {
+  .hero-copy {
+    padding: 48px 22px 22px;
+  }
+
+  .trust-row {
+    margin-bottom: 0;
+  }
+
+  .hero-art {
+    min-height: 430px;
+  }
+}
