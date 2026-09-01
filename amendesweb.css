@@ -1,0 +1,29 @@
+.footer-bottom {
+  grid-column: 1 / -1;
+  border-top: 1px solid #3c3237;
+  padding-top: 25px;
+  color: #8b8086;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.developer-credit {
+  color: #a99da3;
+  font-size: 12px;
+  letter-spacing: .03em;
+  transition: color .2s, transform .2s;
+}
+
+.developer-credit strong { color: #fff; }
+.developer-credit strong span { color: var(--pink); }
+.developer-credit:hover { color: #fff; transform: translateY(-1px); }
+
+@media (max-width: 600px) {
+  .footer-bottom {
+    grid-column: auto;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
