@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://adrianomends.github.io/gabyy_bodypiercer/sitemap.xml
